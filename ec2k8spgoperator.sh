@@ -7,7 +7,7 @@ echo "Starting setup for Kubernetes and Zalando PostgreSQL Operator on EC2..."
 # Variables (customize as needed)
 CLUSTER_NAME="zalando-pg-cluster"
 STORAGE_CLASS_NAME="ebs-sc"
-POSTGRESQL_VERSION="13"
+POSTGRESQL_VERSION="16"
 AWS_REGION="us-east-1"
 EBS_VOLUME_TYPE="gp3"
 EBS_VOLUME_SIZE="10Gi"
